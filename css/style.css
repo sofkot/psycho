@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "IBMPlexSans";  
+    src: url("fonts/IBMPlexSans-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: "IBMPlexSans";  
+    src: url("fonts/IBMPlexSans-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "IBMPlexSans";  
+    src: url("fonts/IBMPlexSans-SemiBold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: bold;
+}
+
+body {
+
+    background: url(BG.png);
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:100vh;
+    font-family: "IBMPlexSans"; 
+
+}
+
+h2 {
+
+    font-weight: bold;  
+    font-size: 48px;
+    color: #171717;
+
+}
+
+p {
+    
+    font-weight: normal;
+    font-size: 18px;
+    color: #171717;
+
+}
+
+a {
+
+    font-weight: normal;
+    font-size: 18px;
+    color: #A60000;
+
+}
+
+.login, .questionnaire {
+
+    width: 50vw;
+    height: 50vh;
+    background-color: #EEEEEE;
+    position:relative;
+    margin: 25vh 25vw 25vw 25vh;
+
+}
+
+.login-form, .questionnaire-form {
+
+    position: relative;
+    text-align: center;
+    background-color: #EEEEEE;
+    padding: 80px;
+    display: block;
+
+}
+
+.questionnaire-form-fields-1 {
+
+    display: grid;
+
+
+}
+
+.login-form-fields {
+
+    margin-bottom: 52px;
+    margin-top: 64px;
+}
+
+.login-form-input:not(:first-child){
+
+    margin-top: 1.5em;
+
+}
+
+button:not(:first-child){
+
+    margin-top: 0.5em;
+
+}
+
+
+input {
+
+    height: 10%;
+    padding: 1rem;
+    max-width: 620px;
+    width: 100%;
+    display: block;
+    border: none;
+    color: #828282;
+    background-color: #fff;
+    margin: 0;
+    font-weight: normal; 
+    font-size: 18px;
+
+}
+
+input:invalid {
+
+    height: 10%;
+    padding: 1rem;
+    max-width: 620px;
+    width: 100%;
+    display: block;
+    border-bottom: #A60000;
+    color: #828282;
+    background-color: #fff;
+    margin: 0;
+    font-weight: normal;  
+    font-size: 18px;
+
+}
+
+.big-red-button {
+
+    height: 10%;
+    padding: 1rem;
+    max-width: 620px;
+    width: 100%;
+    display: block;
+    color: #fff;
+    background-color: #A60000;
+    border: #A60000;
+    margin: 0;
+    font-weight: bold; 
+    font-size: 21px;
+}
+
+.big-button {
+
+    height: 10%;
+    padding: 1rem;
+    width: 100%;
+    display: block;
+    color: #171717;
+    border: none;
+    margin: 0;
+    font-weight: bold; 
+    font-size: 21px;
+    
+}
+
+.policy {
+
+    font-weight: normal;
+    font-size: 18px;
+    margin: 24px 0px;
+
+}
