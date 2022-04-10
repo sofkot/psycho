@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/questionnaire.css">
+    <title>Psycho</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+<div class="questionnaire"> 
+
+    <form class="form">
+
+        <h2>Зарегистрироваться</h2>
+        <p>Для регистрации заполните небольшую анкету</p>
+
+        <div class="form-fields">
+
+            <input class="long-form-input" type="text" name="name" placeholder="Введите ФИО">
+            <input class="long-form-input" type="text" name="email" placeholder="Введите Email"> 
+
+            <div class="grid-fields">
+
+                <div class="grid-fields-below">
+                    <label for="age_input" id="age-input-label">Укажите ваш возраст:</label>
+                    <input type="number" name="age" id="age_input" min="14" max="122">
+
+                </div>
+                
+                <div class="grid-fields-below">
+                    <label for="age_input" id="age-input-label">Укажите ваш пол:</label>
+
+                    <div class="grid-fields-below">
+                        <button class="sex-button" type="button"> Мужской </button>
+                        <button class="sex-button" type="button"> Женский </button>
+                    </div>
+                    
+
+                </div>
+            
+            </div>
+
+        </div>
+
+        <h4>Что вас беспокоит?</h4>
+
+        <div class="form-fields">
+
+            <div class="grid-fields-checkboxes">
+
+                <input type="checkbox" id="trouble-1" class="checkbox">
+                <label for="trouble-1" >Трудности в отношениях</label>
+            
+                <input type="checkbox" id="trouble-2" class="checkbox"> 
+                <label for="trouble-2">Поиск себя</label>
+
+                <input type="checkbox" id="trouble-3" class="checkbox"> 
+                <label for="trouble-3">Неуверенность в себе</label>
+
+                <input type="checkbox" id="trouble-4" class="checkbox"> 
+                <label for="trouble-4">Профессиональное выгорание</label>
+
+                <input type="checkbox" id="trouble-5" class="checkbox"> 
+                <label for="trouble-5">Зависимые отношения</label>
+
+                <input type="checkbox" id="trouble-6" class="checkbox"> 
+                <label for="trouble-6">Стресс и депрессивные состояния</label>
+
+                <input type="checkbox" id="trouble-7" class="checkbox"> 
+                <label for="trouble-7">Страх и тревога</label>
+
+                <input type="checkbox" id="trouble-8" class="checkbox"> 
+                <label for="trouble-8">Психосоматика и физическое состояние</label>
+
+                <input type="checkbox" id="trouble-9" class="checkbox"> 
+                <label for="trouble-9">Проблемы в общении</label>
+
+                <input type="checkbox" id="trouble-10" class="checkbox"> 
+                <label for="trouble-10">Отношения в семье</label>
+
+                <input type="checkbox" id="trouble-11" class="checkbox"> 
+                <label for="trouble-11">Карьера и планы на жизнь</label>
+
+                <input type="checkbox" id="trouble-12" class="checkbox"> 
+                <label for="trouble-12">Жизненный кризис</label>
+
+                <input type="checkbox" id="trouble-13" class="checkbox"> 
+                <label for="trouble-13">Другое</label>
+
+            </div>
+
+            <input class="long-form-input" type="password" name="password" placeholder="Создайте пароль"> 
+
+        </div>        
+
+        <button class="big-red-button" type="submit"> Зарегистрироваться </button>
+
+        <div class="policy">
+
+            <span>Авторизуясь, вы соглашаетесь с <a href="/policy">пользовательским соглашением</a> и даёте согласие на обработку персональных данных.</span>
+
+        </div>
+        
+
+    </form>
+
+</div>
+
+</body>
+
+</html>
